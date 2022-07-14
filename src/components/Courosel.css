@@ -4,6 +4,19 @@
       flex: 0 0 auto;
       display: flex;
       flex-direction: column; 
+      position: relative;
+}
+.badge{
+   position: absolute;
+   background: #fff;
+   color: #000;
+   padding: .5rem 1rem;
+   box-shadow: 1px 3px 3px #000;
+   border: 1px solid #000;
+   border-radius: 15px;
+   font-weight: 600;
+   left: 6px;
+   top: 6px;
 }
 .rtdimg{
    width: 200px;

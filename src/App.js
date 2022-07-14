@@ -7,12 +7,8 @@ function App() {
   const cards =data.map(item =>{
     return (
       <Courosel 
-        img= {item.img}
-        rating = {item.rating}
-        reviewCount = {item.reviewCount}
-        country= {item.country}
-        title ={item.title}
-        price = {item.price}
+        key ={item.id}
+        item= {item}
       />
     )
   })
