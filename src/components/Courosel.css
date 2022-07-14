@@ -1,0 +1,42 @@
+.slide{
+      width: 175px;
+      font-size: 12px;
+      flex: 0 0 auto;
+      display: flex;
+      flex-direction: column; 
+}
+.rtdimg{
+   width: 200px;
+   height: auto;
+   margin: 0;
+   padding: 0;
+}
+.ratings{
+   width: 100%;
+   height: auto;
+   display: flex;
+   gap: 3px;
+   align-items: center;
+}
+.star{
+   width: 35px;
+   height: auto;
+   margin: 0;
+}
+span{
+   font-weight: 500;
+   margin-top: 5px;
+   align-self: center;
+}
+.grey{
+   color: #918E9B;
+   
+}
+.sold{
+   position: relative;
+   top: 3px;
+}
+.black{
+   font-weight: 700;
+   color: #000;
+}

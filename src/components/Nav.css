@@ -1,0 +1,13 @@
+nav{
+   padding: 20px;
+   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+img {
+   height: 50px;
+   padding: .5rem;
+}
+@media(max-width:500px){
+nav{
+   padding: 0;
+}
+}

@@ -1,0 +1,66 @@
+export default [
+   {
+      img:"./images/image3.svg",
+      rating :5.0,
+      reviewCount:6,
+      country:"Nigeria" ,
+      title:"Life Lessons with Katie Zaferes",
+      price:136
+   },
+   {
+      img:"./images/image1.svg",
+      rating :4.0,
+      reviewCount:8,
+      country:"Ghana" ,
+      title:"Leaning to code",
+      price:670
+   },
+   {
+      img:"./images/image4.svg",
+      rating :7.0,
+      reviewCount:3,
+      country:"Uganda" ,
+      title:"Leaning react",
+      price:370
+   },
+   {
+      img:"./images/image5.svg",
+      rating :7.0,
+      reviewCount:3,
+      country:"Togo" ,
+      title:"Javascript",
+      price:580
+   },
+   {
+      img:"./images/image6.svg",
+      rating :3.2,
+      reviewCount:3,
+      country:"Mali" ,
+      title:"Leaning css",
+      price:300
+   },
+   {
+      img:"./images/image7.svg",
+      rating :2.0,
+      reviewCount:10,
+      country:"Gabon" ,
+      title:"Leaning HTML",
+      price:320
+   },
+   {
+      img:"./images/image8.svg",
+      rating :7.0,
+      reviewCount:3,
+      country:"Lagos" ,
+      title:"Leaning python",
+      price:1370
+   },
+   {
+      img:"./images/image9.svg",
+      rating :7.0,
+      reviewCount:3,
+      country:"Abuja" ,
+      title:"Leaning C#",
+      price:2370
+   }
+]
