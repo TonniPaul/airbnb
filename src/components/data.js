@@ -1,4 +1,4 @@
-export default [
+export const data = [
    {
       id:1,
       img:"./images/image3.svg",

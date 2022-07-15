@@ -1,7 +1,7 @@
 import Nav from "./components/Nav";
 import Gallery from "./components/Gallery"
 import Courosel from "./components/Courosel";
-import data from ".//components/data"
+import {data} from ".//components/data"
 
 function App() {
   const cards =data.map(item =>{
