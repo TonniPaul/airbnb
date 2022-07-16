@@ -1,7 +1,8 @@
 import Nav from "./components/Nav";
 import Gallery from "./components/Gallery"
 import Courosel from "./components/Courosel";
-import {data} from ".//components/data"
+import {data} from ".//components/data";
+import Footer from "./components/Footer";
 
 function App() {
   const cards =data.map(item =>{
@@ -13,15 +14,18 @@ function App() {
     )
   })
   return (
-    <div className="App">
-      <Nav/>
-      <div className="section">
-        <Gallery/>
-        <div className="flex">
-          {cards}
+    <>
+      <div className="App">
+        <Nav/>
+        <div className="section">
+          <Gallery/>
+          <div className="flex">
+            {cards}
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }
 
