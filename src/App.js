@@ -5,18 +5,17 @@ import {data} from ".//components/data";
 import Footer from "./components/Footer";
 
 function App() {
-  const cards =data.map(item =>{
+  const cards = data.map((item) => {
     return <Courosel key={item.id} {...item} />;
-  })
+  });
+
   return (
     <>
       <div className="App">
-        <Nav/>
+        <Nav />
         <div className="section">
-          <Gallery/>
-          <div className="flex">
-            {cards}
-          </div>
+          <Gallery />
+          <div className="flex">{cards}</div>
         </div>
       </div>
       <Footer />
