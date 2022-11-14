@@ -6,12 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const cards =data.map(item =>{
-    return (
-      <Courosel 
-        key ={item.id}
-        item= {item}
-      />
-    )
+    return <Courosel key={item.id} {...item} />;
   })
   return (
     <>
